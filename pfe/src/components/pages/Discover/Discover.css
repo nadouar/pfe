@@ -1,0 +1,121 @@
+.home__discover-section {
+    color: #fff;
+    padding: 160px 0;
+  }
+  
+  .home__discover-row {
+    align-items: center;
+  }
+  
+  .containerdiscover {
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+
+  .col1 {
+    margin-bottom: 20%;
+    padding-right: 15px;
+    padding-left: 15%;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .home__discover-text-wrapper {
+    max-width: 540px;
+    padding-top: 10%;
+    padding-bottom: 60px;
+  }
+  
+  .top-line {
+    color: #48C9B0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  .heads {
+    margin-bottom: 340px;
+    font-size: 70px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #1c2237;
+  }
+  
+  .dark {
+    color: #1c2237;
+  }
+  
+  .darkBg {
+    background-color: #1c2237;
+  }
+  
+  .home__discover-subtitle {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #717D7E;
+
+  }
+  
+  .home__discover-img-wrapper {
+    max-width: 590px;
+  }
+  
+  .home__discover-img {
+    max-width: 170%;
+    margin-top: -390px;
+    margin-right: 0;
+    margin-left: -80px;
+    padding-right: 0;
+  }
+  
+  
+  .img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home__discover-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    
+  }

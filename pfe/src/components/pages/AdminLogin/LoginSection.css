@@ -1,0 +1,241 @@
+.home__Login-section {
+    color: #fff;
+    padding: 160px 0;
+  }
+  
+  .home__Login-row {
+    align-items: center;
+  }
+  
+  .Logincontainer {
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .home__Login-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  
+  .top-line {
+    color: #48C9B0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  .head {
+    margin-bottom: 340px;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #1c2237;
+  }
+  
+  .dark {
+    color: #1c2237;
+  }
+  
+  .darkBg {
+    background-color: #1c2237;
+  }
+  
+  .home__Login-subtitle {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .home__Login-img-wrapper {
+    max-width: 500px;
+  }
+  
+  .home__Login-img {
+    max-width: 115%;
+    margin-top: 10%;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+  }
+  
+  img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .Logincontainer {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home__Login-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+
+  .loginbox{
+    width: 380px;
+    height: 300px;
+    background :#fff;
+    color:#fff;
+
+   position:absolute;
+    transform: translate(12%,-80%);
+    box-sizing: border-box;
+    margin-right:-6%;
+    
+  }
+
+  .loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #DF0101;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"]{
+	border:none;
+	border-bottom: 1px solid #585858;
+	background: #fff;
+	outline: none;
+	height: 65px;
+	font-size: 20px;
+}
+
+.loginbox input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #585858;
+	background: #fff;
+	outline: none;
+	height: 65px;
+	font-size: 20px;
+}
+
+.loginbox textarea{
+	width: 100%;
+	margin-bottom: 20px;
+  margin-top: 10%;
+
+}
+
+.loginbox textarea[type="text"]{
+	border:none;
+	border-bottom: 1px solid #585858;
+	background: #fff;
+	outline: none;
+	height: 65px;
+	font-size: 20px;
+}
+
+.loginbox input[type="submit"]{
+	border:none;
+	outline: none;
+	/*height: 50px;*/
+  background-color: #1c2237;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+  margin-bottom: 0%;
+  padding: 12px 160px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+}
+
+.loginbox input[type="submit"]:hover{
+  color: #1c2237;
+  background-color: #fff;
+  /*transition: all 0.2s ease-out;*/
+  border: 2px solid #1c2237;
+}
+
+.comment {
+    width: 60%;
+    height: 100px;
+    padding: 8px;
+    outline: 0;
+    border:1px solid #585858;
+    background: white;
+    line-height: 20px;
+  }
+
+  .custom-select {
+    width: 100%;   
+    height:40px;
+    border: 1px solid #999;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+    position: absolute;
+  
+    
+  }
+
+  .nav-items:hover {
+    border: none;
+  }
+
+  .nav-items {
+    width: 100%;
+  }
+
+  .nav-link {
+    text-align: center;
+    margin-top: 0%;
+    width: 100%;
+    display: table;
+    color: #9E0507 ;
+
+  }
+
+  .nav-link:hover {
+    color: #9E0507;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+  }
